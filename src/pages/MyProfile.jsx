@@ -15,7 +15,7 @@ const MyProfile = () => {
     dob: "2000-03-12",
     aadharNo: "863348226474",
   });
-  const [isEdit, setIsEdit] = useState(1);
+  const [isEdit, setIsEdit] = useState(false);
 
   return (
     <div className="max-w-lg flex flex-col gap-2 text-sm">
